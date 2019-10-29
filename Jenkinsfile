@@ -11,7 +11,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pip install requirements.txt'
+                sh 'find . -name requirements.txt'
+                sh 'pip install -r requirements.txt'
             }
         }
         stage('Test') {
