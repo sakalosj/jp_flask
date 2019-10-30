@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'python:3-alpine'
-            args '-p 3000:3000 -p 5001:5000'
+            args '-p 3000:3000 -p 5000:5001'
         }
     }
     environment {
