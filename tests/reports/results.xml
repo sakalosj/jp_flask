@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="saki-laptop" name="pytest" skipped="0" tests="1" time="0.026" timestamp="2019-10-29T11:47:35.804526"><testcase classname="tests.test_1" file="/home/saki/GitHub/jp_flask/test/test_1.py" line="3" name="test_1" time="0.001"><system-out>Test1 &gt;&gt;&gt;&gt;
+</system-out></testcase></testsuite></testsuites>
