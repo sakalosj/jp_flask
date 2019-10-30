@@ -147,3 +147,5 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+tests/results
