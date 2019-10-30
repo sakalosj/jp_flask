@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'python:3-alpine'
-            args '-p 3000:3000 -p 5000:5000'
+            args '-p 3000:3000 -p 5001:5000'
         }
     }
     environment {
@@ -30,7 +30,7 @@ pipeline {
                 branch 'development'
             }
             steps {
-                sh 'echo just echo 0'
+                sh 'echo just echo 1'
                 sh 'ls -l scripts scripts/start_dev.sh'
                 sh './scripts/start_dev.sh'
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
