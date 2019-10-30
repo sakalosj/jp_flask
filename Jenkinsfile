@@ -30,6 +30,7 @@ pipeline {
                 branch 'development'
             }
             steps {
+                sh 'echo just echo 0'
                 sh 'ls -l scripts scripts/start_dev.sh'
                 sh './scripts/start_dev.sh'
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
